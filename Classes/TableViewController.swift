@@ -7,9 +7,9 @@
 
 import UIKit
 
-class TableViewController: UIViewController {
+public class TableViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         tableView.frame = view.frame
         view.addSubview(tableView)
