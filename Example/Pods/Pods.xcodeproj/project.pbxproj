@@ -13,7 +13,7 @@
 		5E86FBD142B28D2144B8CD23B678774C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6EC912A7DA99F026A93B95FE57473F9D /* TestSwiftLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F5EB5C7E743FB5018899D597B499B2 /* TestSwiftLib-dummy.m */; };
 		750BC053D080B0E80A894CBEC30C4AE7 /* Pods-TestSwiftLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE861F6B236F8E557136D9B93836088A /* Pods-TestSwiftLib_Tests-dummy.m */; };
-		94D775648F3BD7B3B083E6FF8E991664 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50029ED34F14CE625729F165383172B9 /* ReplaceMe.swift */; };
+		94D775648F3BD7B3B083E6FF8E991664 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50029ED34F14CE625729F165383172B9 /* Test.swift */; };
 		AAD86BDD78C515147C3B81E42CE2BAF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B29ECEA3F075DEF5082D1BA6EC0163A7 /* Pods-TestSwiftLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D882955A4482AC8EFB0475B6CCA4765 /* Pods-TestSwiftLib_Example-dummy.m */; };
 		D8C4EBF9960233DDC0D5766099903F14 /* Pods-TestSwiftLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8F1E467A46A00DF8002AFDA4082F6A /* Pods-TestSwiftLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,18 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C26E2C81A42F6712726C8177BC5B40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00C26E2C81A42F6712726C8177BC5B40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		030FFF79DED5AE619D26A4E0D844413E /* Pods-TestSwiftLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestSwiftLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0549942D70FF6BEEC4B2B5C68DFEDB84 /* Pods-TestSwiftLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSwiftLib_Example-Info.plist"; sourceTree = "<group>"; };
-		066943A510084FBEDEDD920D35569079 /* Pods_TestSwiftLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestSwiftLib_Example.framework; path = "Pods-TestSwiftLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		066943A510084FBEDEDD920D35569079 /* Pods_TestSwiftLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		191D8960D1588B7A4A1F040AEC0F519B /* Pods-TestSwiftLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSwiftLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		25033A072D05D34DEB126010E1FD1D54 /* Pods-TestSwiftLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A03D4A74A285B5ED59E390B30CB1E5C /* Pods-TestSwiftLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSwiftLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50029ED34F14CE625729F165383172B9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TestSwiftLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		50029ED34F14CE625729F165383172B9 /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		54812150B43B0A120486DCE03D4CBD37 /* Pods-TestSwiftLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6544333845F75C99D6B75BA5F6E1741B /* TestSwiftLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestSwiftLib-umbrella.h"; sourceTree = "<group>"; };
-		66A799B2ACF99A77656143D98E04FBDD /* Pods_TestSwiftLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestSwiftLib_Tests.framework; path = "Pods-TestSwiftLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6895B9F9866D5285EF04CC9B003A388A /* TestSwiftLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestSwiftLib.framework; path = TestSwiftLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A799B2ACF99A77656143D98E04FBDD /* Pods_TestSwiftLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6895B9F9866D5285EF04CC9B003A388A /* TestSwiftLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSwiftLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8F1E467A46A00DF8002AFDA4082F6A /* Pods-TestSwiftLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestSwiftLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73844495C3EFFF5A48663C0A3273DC03 /* Pods-TestSwiftLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestSwiftLib_Tests.modulemap"; sourceTree = "<group>"; };
@@ -57,13 +57,13 @@
 		78BE841E0EFD7C36E3F3A63F23B661A9 /* TestSwiftLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestSwiftLib-Info.plist"; sourceTree = "<group>"; };
 		7D882955A4482AC8EFB0475B6CCA4765 /* Pods-TestSwiftLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSwiftLib_Example-dummy.m"; sourceTree = "<group>"; };
 		8055A88D572FB1FCAD8C5001897F45A7 /* TestSwiftLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestSwiftLib.modulemap; sourceTree = "<group>"; };
-		8AB59DC7D87FB33CA9EA22A08CE20A2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8AB59DC7D87FB33CA9EA22A08CE20A2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8B16B3B1704CD197B7CD39424FF733AF /* Pods-TestSwiftLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSwiftLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E5E082C83CA7CCC81337928C50E64E4 /* TestSwiftLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestSwiftLib.release.xcconfig; sourceTree = "<group>"; };
 		97F5EB5C7E743FB5018899D597B499B2 /* TestSwiftLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestSwiftLib-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACB83F9D1CC86D79FE629062B3C22EA7 /* Pods-TestSwiftLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSwiftLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE72E95C57E75B48F4B1C13852725D1E /* TestSwiftLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestSwiftLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE72E95C57E75B48F4B1C13852725D1E /* TestSwiftLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestSwiftLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE861F6B236F8E557136D9B93836088A /* Pods-TestSwiftLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSwiftLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		C802BE7ECE387811287F4859B934B8D8 /* Pods-TestSwiftLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestSwiftLib_Example.modulemap"; sourceTree = "<group>"; };
 		E0CD7FF686C765F21BCF013A792445E8 /* Pods-TestSwiftLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DC6C57A264672F000D9E2BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50029ED34F14CE625729F165383172B9 /* Test.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		22B27A27418474DF14E730CDDE548C68 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +223,7 @@
 		FAA9D8830DA027CE50C0DAD6B031ACA6 /* TestSwiftLib */ = {
 			isa = PBXGroup;
 			children = (
-				50029ED34F14CE625729F165383172B9 /* ReplaceMe.swift */,
+				0DC6C57A264672F000D9E2BA /* Classes */,
 				775C904EB2C0CE348DDEE325F079E50E /* Pod */,
 				22B27A27418474DF14E730CDDE548C68 /* Support Files */,
 			);
@@ -367,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D775648F3BD7B3B083E6FF8E991664 /* ReplaceMe.swift in Sources */,
+				94D775648F3BD7B3B083E6FF8E991664 /* Test.swift in Sources */,
 				6EC912A7DA99F026A93B95FE57473F9D /* TestSwiftLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,8 +631,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
