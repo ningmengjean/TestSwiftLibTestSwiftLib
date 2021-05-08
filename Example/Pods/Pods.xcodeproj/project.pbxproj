@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B04616EF90C0CAD94D38235877D9FE0 /* TestSwiftLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6544333845F75C99D6B75BA5F6E1741B /* TestSwiftLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2580F44226468A5C00B9E941 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580F44126468A5C00B9E941 /* TableViewController.swift */; };
 		400E500242473E7085CCE97009B0F6BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		40A973CF1C41A99CA4CDF5F6AC114190 /* Pods-TestSwiftLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 030FFF79DED5AE619D26A4E0D844413E /* Pods-TestSwiftLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E86FBD142B28D2144B8CD23B678774C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -43,6 +44,7 @@
 		066943A510084FBEDEDD920D35569079 /* Pods_TestSwiftLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		191D8960D1588B7A4A1F040AEC0F519B /* Pods-TestSwiftLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSwiftLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		25033A072D05D34DEB126010E1FD1D54 /* Pods-TestSwiftLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2580F44126468A5C00B9E941 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4A03D4A74A285B5ED59E390B30CB1E5C /* Pods-TestSwiftLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSwiftLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		50029ED34F14CE625729F165383172B9 /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		54812150B43B0A120486DCE03D4CBD37 /* Pods-TestSwiftLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				50029ED34F14CE625729F165383172B9 /* Test.swift */,
+				2580F44126468A5C00B9E941 /* TableViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D775648F3BD7B3B083E6FF8E991664 /* Test.swift in Sources */,
+				2580F44226468A5C00B9E941 /* TableViewController.swift in Sources */,
 				6EC912A7DA99F026A93B95FE57473F9D /* TestSwiftLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
