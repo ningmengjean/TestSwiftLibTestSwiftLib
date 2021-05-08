@@ -14,7 +14,7 @@ public class TableViewController: UIViewController {
         tableView.frame = view.frame
         view.addSubview(tableView)
     }
-    let tableView: UITableView = {
+    public let tableView: UITableView = {
         let table = UITableView()
         table.backgroundColor = .red
         return table
