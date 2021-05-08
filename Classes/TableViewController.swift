@@ -19,4 +19,6 @@ public class TableViewController: UIViewController {
         table.backgroundColor = .red
         return table
     }()
+    
+    public var nums = [String]()
 }
